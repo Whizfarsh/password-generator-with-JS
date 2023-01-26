@@ -1,0 +1,87 @@
+@media (max-width: 67.2rem) {
+  p > span {
+    font-size: 1.4rem;
+  }
+  input {
+    height: 1.4rem;
+    width: 1.4rem;
+    margin-right: 7px;
+  }
+  .pswd-box {
+    max-width: 40rem;
+  }
+}
+@media (max-width: 62.5rem) {
+  p > span {
+    font-size: 1.4rem;
+  }
+  input {
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-right: 7px;
+  }
+  .pswd-box {
+    max-width: 30rem;
+  }
+}
+@media (max-width: 53.2rem) {
+  .gen-class h1 {
+    text-align: center;
+  }
+  p > span {
+    font-size: 2.2rem;
+  }
+  input {
+    height: 1.8rem;
+    width: 1.8rem;
+    margin-right: 7px;
+  }
+  .gen-class-body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .gen-class-body {
+    gap: 3rem;
+  }
+  .gen-pswd-levels,
+  .gen-pswd-options {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    flex-wrap: wrap;
+    line-height: 2px;
+  }
+  .gen-pswd-levels {
+    margin-bottom: 1rem;
+  }
+  .pswd-box {
+    max-width: 50rem;
+  }
+}
+@media (max-width: 53.2rem) {
+  .gen-class h1 {
+    font-size: 3.2rem;
+  }
+  .btn {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 35rem) {
+  .pswd-box {
+    max-width: 35rem;
+  }
+  .gen-pswd-levels {
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .gen-pswd-levels,
+  .gen-pswd-options {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    column-gap: 2rem;
+    /* flex-wrap: wrap; */
+    line-height: 2px;
+  }
+}

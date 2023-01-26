@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="pwdgen">
+      <div class="gen-class">
+        <h1>PASSWORD GENERATOR</h1>
+        <div class="gen-class-body">
+          <div class="gen-pswd-elemnet">
+            <input type="text" class="pswd-box" value="GFgftsfGVT" />
+            <select name="pwd-length" class="pswd-length">
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="18">19</option>
+              <option value="18">20</option>
+            </select>
+          </div>
+          <div class="level-options">
+            <div class="gen-pswd-levels">
+              <p>
+                <input type="checkbox" class="levels-check" value="weak" /><span
+                  >Weak</span
+                >
+                <span class="info-sec" title="A very weak password">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="info-icons"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <p>
+                <input
+                  type="checkbox"
+                  class="levels-check"
+                  value="better"
+                /><span>Better</span
+                ><span class="info-sec" title="Better but not very strong.">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="info-icons"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <p>
+                <input
+                  type="checkbox"
+                  class="levels-check"
+                  value="strong"
+                /><span>Strong</span>
+                <span
+                  class="info-sec"
+                  title="A strong password that most website requires."
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="info-icons"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
+                    />
+                  </svg>
+                </span>
+              </p>
+            </div>
+            <div class="gen-pswd-options">
+              <p>
+                <input
+                  type="checkbox"
+                  class="pswd-options"
+                  value="alphabetonly"
+                /><span>Only alphabet</span>
+                <span
+                  class="info-sec"
+                  title="The password generated will include only Alphabet"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="info-icons"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <p>
+                <input
+                  type="checkbox"
+                  class="pswd-options"
+                  value="IncludeNumber"
+                /><span>Include Number</span
+                ><span
+                  class="info-sec"
+                  title="The password generated will include Numbers"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="info-icons"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <p>
+                <input
+                  type="checkbox"
+                  class="pswd-options"
+                  value="symbolsonly"
+                /><span>Include symbols</span
+                ><span
+                  class="info-sec"
+                  title="The password generated will include character symbols"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="info-icons"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <p>
+                <input
+                  type="checkbox"
+                  class="pswd-options"
+                  value="startwithalphabet"
+                /><span>Start with alphabet</span
+                ><span
+                  class="info-sec"
+                  title="The first letter will be an alphabet"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="info-icons"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <p>
+                <input
+                  type="checkbox"
+                  class="pswd-options"
+                  value="CapitalizeAlpha"
+                /><span>Capitalize alphabet</span
+                ><span
+                  class="info-sec"
+                  title="The password will have a capitalize alphabet which is the best"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="info-icons"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
+                    />
+                  </svg>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="btn-gen-container">
+          <button class="btn btn-gen">Generate Again</button>
+          <button class="btn btn-copy">Copy Password</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
