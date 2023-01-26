@@ -68,8 +68,11 @@
 }
 
 @media (max-width: 35rem) {
+  .gen-class h1 {
+    font-size: 2.8rem;
+  }
   .pswd-box {
-    max-width: 35rem;
+    max-width: 30rem;
   }
   .gen-pswd-levels {
     align-items: center;
