@@ -213,13 +213,11 @@ genButton();
 
 //
 const infoIcon = document.querySelectorAll('.info-icon');
-// console.log(infoIcon);
 for (let i = 0; i < infoIcon.length; i++) {
   console.log(infoIcon[i]);
   infoIcon[i].addEventListener('mouseover', function () {
     const infoName = document.querySelector('#infoText');
     console.log(infoName);
-    // infoIcon.textContent = 'Hello world';
   });
 }
 
