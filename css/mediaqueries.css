@@ -73,15 +73,14 @@
   }
   .gen-pswd-levels {
     align-items: center;
-    margin-bottom: 2rem;
+  }
+  .gen-pswd-options {
+    margin-left: 5rem;
   }
   .gen-pswd-levels,
   .gen-pswd-options {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     column-gap: 2rem;
-    /* flex-wrap: wrap; */
-    line-height: 2px;
   }
 }
