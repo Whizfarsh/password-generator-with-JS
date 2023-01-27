@@ -51,6 +51,7 @@ defaultGenerator();
 const genPaswdByStrongOptions = function () {
   for (let i = 0; i < pswdOptions.length; i++) {
     pswdOptions[i].checked = 'true';
+    pswdOptions[2].disabled = false;
     pswdOptions[3].disabled = false;
     pswdOptions[4].disabled = false;
     pswdOptions[i].addEventListener('click', function () {
